@@ -1,0 +1,2 @@
+(this["webpackJsonp@react-page/examples"]=this["webpackJsonp@react-page/examples"]||[]).push([[49],{1375:function(e,a,t){"use strict";var l=t(96);Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var p=l(t(0)),s=(0,l(t(150)).default)(p.default.createElement("path",{d:"M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"}),"FormatQuote");a.default=s}}]);
+//# sourceMappingURL=49.3d9f4c5b.chunk.js.map
