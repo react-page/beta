@@ -14,9 +14,9 @@
     "static/js/5.a1f8fb68.chunk.js.map": "https://react-page.github.io/beta/static/js/5.a1f8fb68.chunk.js.map",
     "static/js/6.6510806d.chunk.js": "https://react-page.github.io/beta/static/js/6.6510806d.chunk.js",
     "static/js/6.6510806d.chunk.js.map": "https://react-page.github.io/beta/static/js/6.6510806d.chunk.js.map",
-    "main.css": "https://react-page.github.io/beta/static/css/main.b40780cf.chunk.css",
-    "main.js": "https://react-page.github.io/beta/static/js/main.3f486244.chunk.js",
-    "main.js.map": "https://react-page.github.io/beta/static/js/main.3f486244.chunk.js.map",
+    "main.css": "https://react-page.github.io/beta/static/css/main.b8c5cba9.chunk.css",
+    "main.js": "https://react-page.github.io/beta/static/js/main.f02f9acc.chunk.js",
+    "main.js.map": "https://react-page.github.io/beta/static/js/main.f02f9acc.chunk.js.map",
     "runtime-main.js": "https://react-page.github.io/beta/static/js/runtime-main.4f495d67.js",
     "runtime-main.js.map": "https://react-page.github.io/beta/static/js/runtime-main.4f495d67.js.map",
     "static/js/9.a003e104.chunk.js": "https://react-page.github.io/beta/static/js/9.a003e104.chunk.js",
@@ -123,10 +123,10 @@
     "static/js/59.645adb35.chunk.js": "https://react-page.github.io/beta/static/js/59.645adb35.chunk.js",
     "static/js/59.645adb35.chunk.js.map": "https://react-page.github.io/beta/static/js/59.645adb35.chunk.js.map",
     "index.html": "https://react-page.github.io/beta/index.html",
-    "precache-manifest.377063783423df6cec32f7adc2f67b51.js": "https://react-page.github.io/beta/precache-manifest.377063783423df6cec32f7adc2f67b51.js",
+    "precache-manifest.d64fd4b5cf59f5bfb2e4c3091c119ad5.js": "https://react-page.github.io/beta/precache-manifest.d64fd4b5cf59f5bfb2e4c3091c119ad5.js",
     "service-worker.js": "https://react-page.github.io/beta/service-worker.js",
     "static/css/10.2cace3a3.chunk.css.map": "https://react-page.github.io/beta/static/css/10.2cace3a3.chunk.css.map",
-    "static/css/main.b40780cf.chunk.css.map": "https://react-page.github.io/beta/static/css/main.b40780cf.chunk.css.map",
+    "static/css/main.b8c5cba9.chunk.css.map": "https://react-page.github.io/beta/static/css/main.b8c5cba9.chunk.css.map",
     "static/js/0.ecf1f1ed.chunk.js.LICENSE.txt": "https://react-page.github.io/beta/static/js/0.ecf1f1ed.chunk.js.LICENSE.txt",
     "static/js/10.4ecbaa3c.chunk.js.LICENSE.txt": "https://react-page.github.io/beta/static/js/10.4ecbaa3c.chunk.js.LICENSE.txt",
     "static/js/11.77ce263c.chunk.js.LICENSE.txt": "https://react-page.github.io/beta/static/js/11.77ce263c.chunk.js.LICENSE.txt",
@@ -151,7 +151,7 @@
     "static/js/runtime-main.4f495d67.js",
     "static/css/10.2cace3a3.chunk.css",
     "static/js/10.4ecbaa3c.chunk.js",
-    "static/css/main.b40780cf.chunk.css",
-    "static/js/main.3f486244.chunk.js"
+    "static/css/main.b8c5cba9.chunk.css",
+    "static/js/main.f02f9acc.chunk.js"
   ]
 }
