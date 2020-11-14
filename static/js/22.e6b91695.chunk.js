@@ -1,0 +1,2 @@
+(this["webpackJsonp@react-page/examples"]=this["webpackJsonp@react-page/examples"]||[]).push([[22],{1050:function(e,a,t){"use strict";var v=t(80);Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var p=v(t(0)),s=(0,v(t(137)).default)(p.default.createElement("path",{d:"M3 21h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18V7H3v2zm0-6v2h18V3H3z"}),"FormatAlignJustify");a.default=s}}]);
+//# sourceMappingURL=22.e6b91695.chunk.js.map

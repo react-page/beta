@@ -1,2 +1,0 @@
-(this["webpackJsonp@react-page/examples"]=this["webpackJsonp@react-page/examples"]||[]).push([[35],{1301:function(e,a,t){"use strict";var l=t(100);Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var p=l(t(0)),s=(0,l(t(165)).default)(p.default.createElement("path",{d:"M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"}),"Code");a.default=s}}]);
-//# sourceMappingURL=35.8ba71bd5.chunk.js.map
