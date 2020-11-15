@@ -1,2 +1,0 @@
-(this["webpackJsonp@react-page/examples"]=this["webpackJsonp@react-page/examples"]||[]).push([[41],{1061:function(e,a,t){"use strict";var c=t(80);Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var l=c(t(0)),p=(0,c(t(137)).default)(l.default.createElement("path",{d:"M23 18V6c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2zM8.5 12.5l2.5 3.01L14.5 11l4.5 6H5l3.5-4.5z"}),"Panorama");a.default=p}}]);
-//# sourceMappingURL=41.f4cc0db2.chunk.js.map
