@@ -1,1 +1,0 @@
-(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[44],{kQdO:function(e,t,a){"use strict";var d=a("63Ad");Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var l=d(a("mXGw")),o=(0,d(a("c9Um")).default)(l.default.createElement("path",{d:"M10 4v3h2.21l-3.42 8H6v3h8v-3h-2.21l3.42-8H18V4z"}),"FormatItalic");t.default=o}}]);

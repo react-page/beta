@@ -1,1 +1,0 @@
-(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[39],{TGm5:function(e,t,a){"use strict";var v=a("63Ad");Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var d=v(a("mXGw")),n=(0,v(a("c9Um")).default)(d.default.createElement("path",{d:"M15 15H3v2h12v-2zm0-8H3v2h12V7zM3 13h18v-2H3v2zm0 8h18v-2H3v2zM3 3v2h18V3H3z"}),"FormatAlignLeft");t.default=n}}]);
