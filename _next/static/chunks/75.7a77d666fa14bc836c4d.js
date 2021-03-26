@@ -1,0 +1,1 @@
+(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[75],{UHGO:function(n,t,e){"use strict";e.r(t);var o=e("mXGw"),a=e.n(o),c=e("bMdZ"),u=e("s3X+"),b=e("LhMo"),l=Object(c.a)((function(n){return a.a.createElement(u.default,{style:{marginBottom:8},color:Object(b.b)(n.value),buttonContent:n.label,onChange:function(t){n.onChange(Object(b.a)(t))}})}));t.default=l}}]);
