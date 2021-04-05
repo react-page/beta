@@ -1,1 +1,0 @@
-(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[72],{"8Gle":function(e,t,a){"use strict";var d=a("TqRt"),o=a("284h");Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var n=o(a("mXGw")),u=(0,d(a("8/g6")).default)(n.createElement("path",{d:"M19 13H5v-2h14v2z"}),"Remove");t.default=u}}]);
