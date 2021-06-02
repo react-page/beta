@@ -1,1 +1,0 @@
-(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[60],{CXIY:function(e,t,v){"use strict";var a=v("mBgD"),d=v("ey9+");Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var n=d(v("mXGw")),o=(0,a(v("8/g6")).default)(n.createElement("path",{d:"M15 15H3v2h12v-2zm0-8H3v2h12V7zM3 13h18v-2H3v2zm0 8h18v-2H3v2zM3 3v2h18V3H3z"}),"FormatAlignLeft");t.default=o}}]);
