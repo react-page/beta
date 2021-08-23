@@ -36,7 +36,6 @@ Make sure to import the css file as well somewhere in your app:
 
 ```
 import '@react-page/editor/lib/index.css';
-
 ```
 
 ## Simple example
@@ -58,6 +57,8 @@ React-page editor together with various plugins can be used to create and subseq
 ### Viewing
 
 The React-page editor can seamlessly be used to view the pages created by it in a "readonly" mode. The bundle size is reduced in this mode.
+
+Simply pass `readOnly` to the Editor and omit the `onChange`:
 
 [readonly.tsx](examples/pages/examples/readonly.tsx ':include :type=code typescript')
 
