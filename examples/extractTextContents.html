@@ -1,0 +1,845 @@
+<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/beta/_next/static/css/2e0c122c696382cf8275.css" as="style"/><link rel="stylesheet" href="/beta/_next/static/css/2e0c122c696382cf8275.css" data-n-g=""/><noscript data-n-css=""></noscript><link rel="preload" href="/beta/_next/static/chunks/fe8bb93dcba62e8ce8a062d724dbc8a69309bd57.ea4266abf95b221bb051.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/53.169a284afafca4053b81.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/webpack-e858890deb40b5370077.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/framework.697a70d97d7bad588b20.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/commons.eb1f81b9aeeb781da3ff.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/1eda3100e0f74f366f5d84ea0f08f6791b1cd068.331edb6b5b5edabe02e7.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/5f2e4506bbcb8b58a90792fb2104083f25e8e33f.ff3365222aea16cf41be.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/main-0de145441080f7ebc864.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/pages/_app-8c7956a6177c4938d6f0.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/9a31bf60539185e3255264802ee5087a52ad5544.3675a0dc192f7bada986.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/c514e870182cf5b1a992a1afb5cc44ba56461629.a71d29afb2dde7939702.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/9edfa452e812c1f96fa9c30afd2b6ca35887fe68.ca1ae7417225befc0846.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/acf4785f75aceebb0276933a9e45e6996b03b125.912a30f9340522b3e57b.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/8bc783e8110500127fa47a063c8c4cf22aecf3f4.19b17d82eee93bfb899c.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/062231edcb9e05d4cc54994579aef1b7afc9841a.f98d1dcdf4f67349bde3.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/1fc445b96d5b67e26114c393c0f9c2da13866060.c7f45d5ef9f208e989f6.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/9b0bd0386e4c1125e2448a4cfc74a81f3a2d1ae8.14a1992ce341086999d4.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/989aae2bd6289f775c80d6c779b9e889e239ed2e.4605038641ea741bf958.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/aa55b148d134fa5821139b36bab1d324c41d3c0d.62b9e1db0d61ebad2ebe.js" as="script"/><link rel="preload" href="/beta/_next/static/chunks/pages/examples/extractTextContents-dca198ef6ec6442be546.js" as="script"/><style data-styled="" data-styled-version="5.3.1"></style><style id="jss-server-side">.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #3f51b5;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #f50057;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #f44336;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 1.25rem;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 2.1875rem;
+}
+.MuiPaper-root {
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+}
+.MuiPaper-rounded {
+  border-radius: 4px;
+}
+.MuiPaper-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation0 {
+  box-shadow: none;
+}
+.MuiPaper-elevation1 {
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation2 {
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation3 {
+  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation4 {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation5 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation6 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation7 {
+  box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation8 {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation9 {
+  box-shadow: 0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation10 {
+  box-shadow: 0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation11 {
+  box-shadow: 0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation12 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation13 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation14 {
+  box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation15 {
+  box-shadow: 0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation16 {
+  box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation17 {
+  box-shadow: 0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation18 {
+  box-shadow: 0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation19 {
+  box-shadow: 0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation20 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation21 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation22 {
+  box-shadow: 0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation23 {
+  box-shadow: 0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation24 {
+  box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);
+}
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    color-adjust: exact;
+  }
+}
+  .MuiIconButton-root {
+    flex: 0 0 auto;
+    color: rgba(0, 0, 0, 0.54);
+    padding: 12px;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 50%;
+  }
+  .MuiIconButton-root:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  .MuiIconButton-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26);
+    background-color: transparent;
+  }
+@media (hover: none) {
+  .MuiIconButton-root:hover {
+    background-color: transparent;
+  }
+}
+  .MuiIconButton-edgeStart {
+    margin-left: -12px;
+  }
+  .MuiIconButton-sizeSmall.MuiIconButton-edgeStart {
+    margin-left: -3px;
+  }
+  .MuiIconButton-edgeEnd {
+    margin-right: -12px;
+  }
+  .MuiIconButton-sizeSmall.MuiIconButton-edgeEnd {
+    margin-right: -3px;
+  }
+  .MuiIconButton-colorInherit {
+    color: inherit;
+  }
+  .MuiIconButton-colorPrimary {
+    color: #3f51b5;
+  }
+  .MuiIconButton-colorPrimary:hover {
+    background-color: rgba(63, 81, 181, 0.04);
+  }
+@media (hover: none) {
+  .MuiIconButton-colorPrimary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiIconButton-colorSecondary {
+    color: #f50057;
+  }
+  .MuiIconButton-colorSecondary:hover {
+    background-color: rgba(245, 0, 87, 0.04);
+  }
+@media (hover: none) {
+  .MuiIconButton-colorSecondary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiIconButton-sizeSmall {
+    padding: 3px;
+    font-size: 1.125rem;
+  }
+  .MuiIconButton-label {
+    width: 100%;
+    display: flex;
+    align-items: inherit;
+    justify-content: inherit;
+  }
+  .MuiAppBar-root {
+    width: 100%;
+    display: flex;
+    z-index: 1100;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .MuiAppBar-positionFixed {
+    top: 0;
+    left: auto;
+    right: 0;
+    position: fixed;
+  }
+@media print {
+  .MuiAppBar-positionFixed {
+    position: absolute;
+  }
+}
+  .MuiAppBar-positionAbsolute {
+    top: 0;
+    left: auto;
+    right: 0;
+    position: absolute;
+  }
+  .MuiAppBar-positionSticky {
+    top: 0;
+    left: auto;
+    right: 0;
+    position: sticky;
+  }
+  .MuiAppBar-positionStatic {
+    position: static;
+  }
+  .MuiAppBar-positionRelative {
+    position: relative;
+  }
+  .MuiAppBar-colorDefault {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #f5f5f5;
+  }
+  .MuiAppBar-colorPrimary {
+    color: #fff;
+    background-color: #3f51b5;
+  }
+  .MuiAppBar-colorSecondary {
+    color: #fff;
+    background-color: #f50057;
+  }
+  .MuiAppBar-colorInherit {
+    color: inherit;
+  }
+  .MuiAppBar-colorTransparent {
+    color: inherit;
+    background-color: transparent;
+  }
+  .MuiTypography-root {
+    margin: 0;
+  }
+  .MuiTypography-body2 {
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+  }
+  .MuiTypography-body1 {
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+  }
+  .MuiTypography-caption {
+    font-size: 0.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+  }
+  .MuiTypography-button {
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+  }
+  .MuiTypography-h1 {
+    font-size: 6rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.167;
+    letter-spacing: -0.01562em;
+  }
+  .MuiTypography-h2 {
+    font-size: 3.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -0.00833em;
+  }
+  .MuiTypography-h3 {
+    font-size: 3rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.167;
+    letter-spacing: 0em;
+  }
+  .MuiTypography-h4 {
+    font-size: 2.125rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+  }
+  .MuiTypography-h5 {
+    font-size: 1.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.334;
+    letter-spacing: 0em;
+  }
+  .MuiTypography-h6 {
+    font-size: 1.25rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+  }
+  .MuiTypography-subtitle1 {
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.00938em;
+  }
+  .MuiTypography-subtitle2 {
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+  }
+  .MuiTypography-overline {
+    font-size: 0.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 2.66;
+    letter-spacing: 0.08333em;
+    text-transform: uppercase;
+  }
+  .MuiTypography-srOnly {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .MuiTypography-alignLeft {
+    text-align: left;
+  }
+  .MuiTypography-alignCenter {
+    text-align: center;
+  }
+  .MuiTypography-alignRight {
+    text-align: right;
+  }
+  .MuiTypography-alignJustify {
+    text-align: justify;
+  }
+  .MuiTypography-noWrap {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .MuiTypography-gutterBottom {
+    margin-bottom: 0.35em;
+  }
+  .MuiTypography-paragraph {
+    margin-bottom: 16px;
+  }
+  .MuiTypography-colorInherit {
+    color: inherit;
+  }
+  .MuiTypography-colorPrimary {
+    color: #3f51b5;
+  }
+  .MuiTypography-colorSecondary {
+    color: #f50057;
+  }
+  .MuiTypography-colorTextPrimary {
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .MuiTypography-colorTextSecondary {
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .MuiTypography-colorError {
+    color: #f44336;
+  }
+  .MuiTypography-displayInline {
+    display: inline;
+  }
+  .MuiTypography-displayBlock {
+    display: block;
+  }
+  .MuiDivider-root {
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+  .MuiDivider-absolute {
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+  }
+  .MuiDivider-inset {
+    margin-left: 72px;
+  }
+  .MuiDivider-light {
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+  .MuiDivider-middle {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .MuiDivider-vertical {
+    width: 1px;
+    height: 100%;
+  }
+  .MuiDivider-flexItem {
+    height: auto;
+    align-self: stretch;
+  }
+  .MuiDrawer-docked {
+    flex: 0 0 auto;
+  }
+  .MuiDrawer-paper {
+    top: 0;
+    flex: 1 0 auto;
+    height: 100%;
+    display: flex;
+    outline: 0;
+    z-index: 1200;
+    position: fixed;
+    overflow-y: auto;
+    flex-direction: column;
+    -webkit-overflow-scrolling: touch;
+  }
+  .MuiDrawer-paperAnchorLeft {
+    left: 0;
+    right: auto;
+  }
+  .MuiDrawer-paperAnchorRight {
+    left: auto;
+    right: 0;
+  }
+  .MuiDrawer-paperAnchorTop {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    height: auto;
+    max-height: 100%;
+  }
+  .MuiDrawer-paperAnchorBottom {
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    max-height: 100%;
+  }
+  .MuiDrawer-paperAnchorDockedLeft {
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  .MuiDrawer-paperAnchorDockedTop {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  .MuiDrawer-paperAnchorDockedRight {
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  .MuiDrawer-paperAnchorDockedBottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+  }
+@media (min-width:0px) and (max-width:599.95px) {
+  .jss9 {
+    display: none;
+  }
+}
+@media (min-width:0px) {
+  .jss10 {
+    display: none;
+  }
+}
+@media (max-width:599.95px) {
+  .jss11 {
+    display: none;
+  }
+}
+@media (min-width:600px) and (max-width:959.95px) {
+  .jss12 {
+    display: none;
+  }
+}
+@media (min-width:600px) {
+  .jss13 {
+    display: none;
+  }
+}
+@media (max-width:959.95px) {
+  .jss14 {
+    display: none;
+  }
+}
+@media (min-width:960px) and (max-width:1279.95px) {
+  .jss15 {
+    display: none;
+  }
+}
+@media (min-width:960px) {
+  .jss16 {
+    display: none;
+  }
+}
+@media (max-width:1279.95px) {
+  .jss17 {
+    display: none;
+  }
+}
+@media (min-width:1280px) and (max-width:1919.95px) {
+  .jss18 {
+    display: none;
+  }
+}
+@media (min-width:1280px) {
+  .jss19 {
+    display: none;
+  }
+}
+@media (max-width:1919.95px) {
+  .jss20 {
+    display: none;
+  }
+}
+@media (min-width:1920px) {
+  .jss21 {
+    display: none;
+  }
+}
+@media (min-width:1920px) {
+  .jss22 {
+    display: none;
+  }
+}
+@media (min-width:0px) {
+  .jss23 {
+    display: none;
+  }
+}
+  .MuiList-root {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+  }
+  .MuiList-padding {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .MuiList-subheader {
+    padding-top: 0;
+  }
+  .MuiListItem-root {
+    width: 100%;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: flex-start;
+    text-decoration: none;
+  }
+  .MuiListItem-root.Mui-focusVisible {
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+  .MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+  .MuiListItem-root.Mui-disabled {
+    opacity: 0.5;
+  }
+  .MuiListItem-container {
+    position: relative;
+  }
+  .MuiListItem-dense {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .MuiListItem-alignItemsFlexStart {
+    align-items: flex-start;
+  }
+  .MuiListItem-divider {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    background-clip: padding-box;
+  }
+  .MuiListItem-gutters {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .MuiListItem-button {
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .MuiListItem-button:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+@media (hover: none) {
+  .MuiListItem-button:hover {
+    background-color: transparent;
+  }
+}
+  .MuiListItem-secondaryAction {
+    padding-right: 48px;
+  }
+  .MuiListItemIcon-root {
+    color: rgba(0, 0, 0, 0.54);
+    display: inline-flex;
+    min-width: 56px;
+    flex-shrink: 0;
+  }
+  .MuiListItemIcon-alignItemsFlexStart {
+    margin-top: 8px;
+  }
+  .MuiListItemText-root {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .MuiListItemText-multiline {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .MuiListItemText-inset {
+    padding-left: 56px;
+  }
+  .MuiToolbar-root {
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  .MuiToolbar-gutters {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+@media (min-width:600px) {
+  .MuiToolbar-gutters {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+  .MuiToolbar-regular {
+    min-height: 56px;
+  }
+@media (min-width:0px) and (orientation: landscape) {
+  .MuiToolbar-regular {
+    min-height: 48px;
+  }
+}
+@media (min-width:600px) {
+  .MuiToolbar-regular {
+    min-height: 64px;
+  }
+}
+  .MuiToolbar-dense {
+    min-height: 48px;
+  }
+  .jss24 {
+    min-height: 56px;
+  }
+@media (min-width:0px) and (orientation: landscape) {
+  .jss24 {
+    min-height: 48px;
+  }
+}
+@media (min-width:600px) {
+  .jss24 {
+    min-height: 64px;
+  }
+}
+  .jss1 {
+    display: flex;
+  }
+@media (min-width:600px) {
+  .jss2 {
+    width: 240px;
+    flex-shrink: 0;
+  }
+}
+@media (min-width:600px) {
+  .jss3 {
+    width: calc(100% - 240px);
+    margin-left: 240px;
+  }
+}
+  .jss4 {
+    margin-right: 16px;
+  }
+@media (min-width:600px) {
+  .jss4 {
+    display: none;
+  }
+}
+  .jss5 {
+    min-height: 56px;
+  }
+@media (min-width:0px) and (orientation: landscape) {
+  .jss5 {
+    min-height: 48px;
+  }
+}
+@media (min-width:600px) {
+  .jss5 {
+    min-height: 64px;
+  }
+}
+  .jss6 {
+    width: 240px;
+    z-index: 0;
+  }
+  .jss7 {
+    padding: 32px;
+    flex-grow: 1;
+    background-color: #eee;
+  }
+  .jss8 {
+    margin: auto;
+    padding: 32px;
+    flex-grow: 1;
+    max-width: 1280px;
+    background-color: white;
+  }</style></head><body><div id="__next"><div class="github-fork-ribbon-wrapper right " style="width:150px;height:150px;position:absolute;overflow:hidden;top:0;z-index:9999;pointer-events:none;right:0"><div class="github-fork-ribbon" style="position:absolute;padding:2px 0;background-color:#333;background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));-webkit-box-shadow:0 2px 3px 0 rgba(0, 0, 0, 0.5);-moz-box-shadow:0 2px 3px 0 rgba(0, 0, 0, 0.5);box-shadow:0 2px 3px 0 rgba(0, 0, 0, 0.5);font:700 13px &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;z-index:9999;pointer-events:auto;top:42px;right:-43px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)"><a href="//github.com/react-page/react-page" target="_blank" style="color:#fff;text-decoration:none;text-shadow:0 -1px rgba(0, 0, 0, 0.5);text-align:center;width:200px;line-height:20px;display:inline-block;padding:2px 0;border-width:1px 0;border-style:dashed;border-color:rgba(255, 255, 255, 0.7)" rel="noopener">Fork me on GitHub</a></div></div><div class="jss1"><header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary jss3 mui-fixed MuiPaper-elevation4"><div class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"><button class="MuiButtonBase-root MuiIconButton-root jss4 MuiIconButton-colorInherit MuiIconButton-edgeStart" tabindex="0" type="button" aria-label="open drawer"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span></button><h6 class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap">React Page <!-- -->4.4.0-beta.1</h6></div></header><nav class="jss2"><div class="jss13"></div><div class="jss11"><div class="MuiDrawer-root MuiDrawer-docked"><div class="MuiPaper-root MuiDrawer-paper jss6 MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft MuiPaper-elevation0"><div><div class="jss24"></div><hr class="MuiDivider-root"/><a class="MuiListItem-root MuiListItem-gutters" href="/beta/docs"><div class="MuiListItemIcon-root"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"></path></svg></div><div class="MuiListItemText-root"><span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">Docs</span></div></a><hr class="MuiDivider-root"/><a class="MuiListItem-root MuiListItem-gutters" href="/beta"><div class="MuiListItemText-root"><span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">Demo</span></div></a><a class="MuiListItem-root MuiListItem-gutters" href="/beta/readonly"><div class="MuiListItemText-root"><span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">Read only</span></div></a><a class="MuiListItem-root MuiListItem-gutters" href="/beta/empty"><div class="MuiListItemText-root"><span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">Empty editor</span></div></a><a class="MuiListItem-root MuiListItem-gutters" href="/beta/examples/reactadmin"><div class="MuiListItemText-root"><span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">React Admin example</span></div></a><hr class="MuiDivider-root"/><ul class="MuiList-root MuiList-padding"><a class="MuiListItem-root MuiListItem-gutters" href="/beta/old/demo"><div class="MuiListItemText-root"><span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">Old demo (v0)</span></div></a><a class="MuiListItem-root MuiListItem-gutters" href="/beta/old/fromhtml"><div class="MuiListItemText-root"><span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">Old import-from-html-Demo</span></div></a></ul><hr class="MuiDivider-root"/><ul class="MuiList-root MuiList-padding"><a class="MuiListItem-root MuiListItem-gutters" href="https://react-page.github.io/"><div class="MuiListItemText-root"><span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">Latest version</span></div></a><a class="MuiListItem-root MuiListItem-gutters" href="https://react-page.github.io/beta"><div class="MuiListItemText-root"><span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">beta version</span></div></a></ul></div></div></div></div></nav><main class="jss7"><div class="jss5"></div><div class="jss8"><div style="margin:0px 0"><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-12 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf slate"><div style="display:flex;flex-direction:column;height:100%"><div style="position:relative;outline:none;white-space:pre-wrap;overflow-wrap:break-word"><h2 style="text-align:center">Next Level Content Editing</h2><h1 style="text-align:center">ReactPage</h1></div></div></div></div></div><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-12 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf slate"><div style="display:flex;flex-direction:column;height:100%"><div style="position:relative;outline:none;white-space:pre-wrap;overflow-wrap:break-word"><p><strong>ReactPage</strong> is a next level content editor for react.</p><p>It enables <strong><em>webmasters and content editors </em></strong>to create the content they want with the <code style="white-space:pre-wrap">&lt;Components /&gt;</code> you provide as a developer.</p></div></div></div></div></div><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-12 react-page-cell-xs-12"><div style="padding:0" class="react-page-cell-inner"><div style="display:flex;flex-direction:column;height:100%"><div class="react-page-plugins-layout-background" style="background:linear-gradient(180deg, rgba(72, 39, 39, 0.75), rgba(0, 0, 0, 0.6224999999999999)), url(&#x27;&#x27;) center / cover no-repeat fixed"><div class="react-page-plugins-layout-background__backstretch" style="background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0))"></div><div style="margin:0px 0"><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-6 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf"><div style="display:flex;flex-direction:column;height:100%"><div><div class="react-page-plugins-content-image-placeholder"></div></div></div></div></div><div class="react-page-cell react-page-cell-sm-6 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf slate"><div style="display:flex;flex-direction:column;height:100%"><div style="position:relative;outline:none;white-space:pre-wrap;overflow-wrap:break-word"><h2>Batteries included - Key features</h2><ul><li>powerful and customizable <strong>RichText Editor (</strong><em>powered by </em><a href="https://github.com/vazco/uniforms"><em></em></a><em></em><a href="https://github.com/ianstormtaylor/slate/"><em>Slate</em></a>)</li><li>12-column grid responsive grid layout</li><li>Drag &amp; Drop cells</li><li>Undo &amp; Redo, copy and hotkey support</li><li>Multi-Language support</li><li>Add any custom Components you like</li></ul></div></div></div></div></div></div></div></div></div></div></div><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-12 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf slate"><div style="display:flex;flex-direction:column;height:100%"><div style="position:relative;outline:none;white-space:pre-wrap;overflow-wrap:break-word"><h2>It&#x27;s just a react component!</h2></div></div></div></div></div><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-6 react-page-cell-xs-12" style="padding:0 0px"><div class="react-page-row react-page-row-has-floating-children" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-4 react-page-cell-xs-12 react-page-cell-inline-right react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf"><div style="display:flex;flex-direction:column;height:100%"><div><img class="react-page-plugins-content-image" alt="" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"/></div></div></div></div><div class="react-page-cell react-page-cell-sm-12 react-page-cell-xs-12 react-page-cell-has-inline-neighbour react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf slate"><div><div style="position:relative;outline:none;white-space:pre-wrap;overflow-wrap:break-word"><p><strong>ReactPage</strong> has a simple API - it&#x27;s basically just like a form field and can be included in any project. </p><p>Pass it&#x27;s current <code style="white-space:pre-wrap">value</code> that you might read from your datastore and update the value when <code style="white-space:pre-wrap">onChange</code> is called. <strong>It&#x27;s that simple.</strong></p><p>Set <code style="white-space:pre-wrap">readOnly={true}</code> whenever you want to display content without editing capabilities. <strong>ReactPage</strong> will only load what is really required for displaying thanks to code splitting. This results in a <strong>small bundle size.</strong> </p></div></div></div></div></div></div><div class="react-page-cell react-page-cell-sm-6 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf"><div style="display:flex;flex-direction:column;height:100%"><pre style="color:#d4d4d4;font-size:13px;text-shadow:none;font-family:Menlo, Monaco, Consolas, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, &quot;Courier New&quot;, monospace;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;padding:1em;margin:.5em 0;overflow:auto;background:#1e1e1e"><code class="language-tsx" style="color:#9cdcfe;font-size:13px;text-shadow:none;font-family:Menlo, Monaco, Consolas, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, &quot;Courier New&quot;, monospace;direction:ltr;text-align:left;white-space:pre-wrap;word-spacing:normal;word-break:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span><span>
+</span></span><span><span></span><span class="token" style="color:#c586c0">import</span><span> </span><span class="token" style="color:#9cdcfe">Editor</span><span> </span><span class="token" style="color:#c586c0">from</span><span> </span><span class="token" style="color:#ce9178">&#x27;@react-page/editor&#x27;</span><span>
+</span></span><span>
+</span><span><span></span><span class="token" style="color:#6a9955">// use ReactPage for editing Content</span><span>
+</span></span><span><span></span><span class="token" style="color:#808080">&lt;</span><span class="token" style="color:#4ec9b0">Editor</span><span class="token" style="color:#569cd6">
+</span></span><span><span class="token" style="color:#569cd6">    </span><span class="token" style="color:#9cdcfe">cellPlugins</span><span class="token script language-javascript script-punctuation" style="color:#569cd6">=</span><span class="token script language-javascript" style="color:#808080">{</span><span class="token script language-javascript" style="color:#569cd6">yourCellPlugins</span><span class="token script language-javascript" style="color:#808080">}</span><span class="token" style="color:#569cd6">
+</span></span><span><span class="token" style="color:#569cd6">    </span><span class="token" style="color:#9cdcfe">value</span><span class="token script language-javascript script-punctuation" style="color:#569cd6">=</span><span class="token script language-javascript" style="color:#808080">{</span><span class="token script language-javascript" style="color:#569cd6">theCurrentValue</span><span class="token script language-javascript" style="color:#808080">}</span><span class="token" style="color:#569cd6">
+</span></span><span><span class="token" style="color:#569cd6">    </span><span class="token" style="color:#9cdcfe">onChange</span><span class="token script language-javascript script-punctuation" style="color:#569cd6">=</span><span class="token script language-javascript" style="color:#808080">{</span><span class="token script language-javascript" style="color:#9cdcfe">newValue</span><span class="token script language-javascript" style="color:#569cd6"> </span><span class="token script language-javascript" style="color:#569cd6">=&gt;</span><span class="token script language-javascript" style="color:#569cd6"> </span><span class="token script language-javascript" style="color:#dcdcaa">saveTheValue</span><span class="token script language-javascript" style="color:#808080">(</span><span class="token script language-javascript" style="color:#569cd6">newValue</span><span class="token script language-javascript" style="color:#808080">)</span><span class="token script language-javascript" style="color:#808080">}</span><span class="token" style="color:#569cd6">
+</span></span><span><span class="token" style="color:#569cd6"></span><span class="token" style="color:#808080">/&gt;</span><span>
+</span></span><span>
+</span><span><span></span><span class="token" style="color:#6a9955">// or just for displaying content</span><span>
+</span></span><span><span></span><span class="token" style="color:#808080">&lt;</span><span class="token" style="color:#4ec9b0">Editor</span><span class="token" style="color:#569cd6">
+</span></span><span><span class="token" style="color:#569cd6">    </span><span class="token" style="color:#9cdcfe">cellPlugins</span><span class="token script language-javascript script-punctuation" style="color:#569cd6">=</span><span class="token script language-javascript" style="color:#808080">{</span><span class="token script language-javascript" style="color:#569cd6">yourCellPlugins</span><span class="token script language-javascript" style="color:#808080">}</span><span class="token" style="color:#569cd6">
+</span></span><span><span class="token" style="color:#569cd6">    </span><span class="token" style="color:#9cdcfe">value</span><span class="token script language-javascript script-punctuation" style="color:#569cd6">=</span><span class="token script language-javascript" style="color:#808080">{</span><span class="token script language-javascript" style="color:#569cd6">theCurrentValue</span><span class="token script language-javascript" style="color:#808080">}</span><span class="token" style="color:#569cd6">
+</span></span><span><span class="token" style="color:#569cd6">    </span><span class="token" style="color:#9cdcfe">readOnly</span><span class="token script language-javascript script-punctuation" style="color:#569cd6">=</span><span class="token script language-javascript" style="color:#808080">{</span><span class="token script language-javascript" style="color:#569cd6">true</span><span class="token script language-javascript" style="color:#808080">}</span><span class="token" style="color:#569cd6">
+</span></span><span><span class="token" style="color:#569cd6"></span><span class="token" style="color:#808080">/&gt;</span><span>
+</span></span><span>
+</span></code></pre></div></div></div></div><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-12 react-page-cell-xs-12" style="padding:0 0px"><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-4 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf"><div style="display:flex;flex-direction:column;height:100%"><div><div class="react-page-plugins-content-image-placeholder"></div></div></div></div></div><div class="react-page-cell react-page-cell-sm-8 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf slate"><div style="display:flex;flex-direction:column;height:100%"><div style="position:relative;outline:none;white-space:pre-wrap;overflow-wrap:break-word"><h2>Add anything you want</h2><p>Anything can displayed inside a cell of this editor! You can add text, images, videos and any custom Component you want by creating custom <code style="white-space:pre-wrap">CellPlugins.</code></p><p>Provide your webmasters a &quot;recommended products&quot; section for your E-Commerce blog.
+Show a contact form directly inside your content.
+Embed Tweets and newest posts from Social media.</p><p>Anything is possible with a simple, yet powerful API. </p><p>You provide a Component and some metadata about your new <code style="white-space:pre-wrap">CellPlugin </code>and you are done. If you additionaly provide a schema of the data of this <code style="white-space:pre-wrap">CellPlugin, </code>we will <strong>automatically create a form</strong> for you (<em>powered by </em><a href="https://github.com/vazco/uniforms"><em>Uniforms</em></a>).</p></div></div></div></div></div><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-6 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf slate"><div style="display:flex;flex-direction:column;height:100%"><div style="position:relative;outline:none;white-space:pre-wrap;overflow-wrap:break-word"><h2>Powerful Rich Text editing</h2><p>We provide a powerful richtext plugin built upon <a href="https://github.com/vazco/uniforms"></a><a href="https://github.com/ianstormtaylor/slate/">Slate</a>. It works out-of-the-box, but is fully customizable. You can customize how everything is rendered by providing custom component for headlines, paragraphs, links and so-on and you can add create your own custom plugins to bring in <span color="green" style="color:green">color</span>, add custom links or custom paragraph styles.</p><h2></h2></div></div></div></div><div class="react-page-cell react-page-cell-sm-6 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf slate"><div style="display:flex;flex-direction:column;height:100%"><div style="position:relative;outline:none;white-space:pre-wrap;overflow-wrap:break-word"><p><em></em></p><p style="text-align:center"><em>You can customize the rich text editor anyway you like.
+You can even add formula editing capabilities:</em></p><p style="text-align:center"><span style="position:relative"><span contenteditable="false"></span><span style="opacity:0;position:absolute;left:0;top:0">f(x) = x^2 </span></span></p><p></p></div></div></div></div></div></div></div><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-6 react-page-cell-xs-12" style="padding:0 0px"><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-12 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf slate"><div style="display:flex;flex-direction:column;height:100%"><div style="position:relative;outline:none;white-space:pre-wrap;overflow-wrap:break-word"><h2>Embraces Typescript</h2><ol><li>ReactPage is written in modern typescript and enables developer that include ReactPage into their project with typesafety and peace of mind. Thanks to generics, you can give any CellPlugin the data type that you need.</li></ol></div></div></div></div></div><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-12 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf"><div style="display:flex;flex-direction:column;height:100%"><div><h4>A Sample Twitter plugin</h4><div></div></div></div></div></div></div></div><div class="react-page-cell react-page-cell-sm-6 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf"><div style="display:flex;flex-direction:column;height:100%"><pre style="color:#d4d4d4;font-size:13px;text-shadow:none;font-family:Menlo, Monaco, Consolas, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, &quot;Courier New&quot;, monospace;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;padding:1em;margin:.5em 0;overflow:auto;background:#1e1e1e"><code class="language-tsx" style="color:#9cdcfe;font-size:13px;text-shadow:none;font-family:Menlo, Monaco, Consolas, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, &quot;Courier New&quot;, monospace;direction:ltr;text-align:left;white-space:pre-wrap;word-spacing:normal;word-break:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span><span class="token" style="color:#c586c0">import</span><span> </span><span class="token" style="color:#569CD6">type</span><span> </span><span class="token" style="color:#d4d4d4">{</span><span> </span><span class="token" style="color:#4ec9b0">CellPlugin</span><span> </span><span class="token" style="color:#d4d4d4">}</span><span> </span><span class="token" style="color:#c586c0">from</span><span> </span><span class="token" style="color:#ce9178">&#x27;@react-page/editor&#x27;</span><span class="token" style="color:#d4d4d4">;</span><span>
+</span></span><span><span></span><span class="token" style="color:#c586c0">import</span><span> </span><span class="token" style="color:#9cdcfe">React</span><span> </span><span class="token" style="color:#c586c0">from</span><span> </span><span class="token" style="color:#ce9178">&#x27;react&#x27;</span><span class="token" style="color:#d4d4d4">;</span><span>
+</span></span><span><span></span><span class="token" style="color:#c586c0">import</span><span> </span><span class="token" style="color:#d4d4d4">{</span><span class="token"> </span><span class="token" style="color:#9cdcfe">Timeline</span><span class="token"> </span><span class="token" style="color:#d4d4d4">}</span><span> </span><span class="token" style="color:#c586c0">from</span><span> </span><span class="token" style="color:#ce9178">&#x27;react-twitter-widgets&#x27;</span><span class="token" style="color:#d4d4d4">;</span><span>
+</span></span><span>
+</span><span><span></span><span class="token" style="color:#569CD6">type</span><span> </span><span class="token" style="color:#4ec9b0">Data</span><span> </span><span class="token" style="color:#d4d4d4">=</span><span> </span><span class="token" style="color:#d4d4d4">{</span><span>
+</span></span><span><span>  screenName</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">string</span><span class="token" style="color:#d4d4d4">;</span><span>
+</span></span><span><span>  height</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">number</span><span class="token" style="color:#d4d4d4">;</span><span>
+</span></span><span><span>  title</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">string</span><span class="token" style="color:#d4d4d4">;</span><span>
+</span></span><span><span></span><span class="token" style="color:#d4d4d4">}</span><span class="token" style="color:#d4d4d4">;</span><span>
+</span></span><span><span></span><span class="token" style="color:#6a9955">// you can pass the shape of the data as the generic type argument</span><span>
+</span></span><span><span></span><span class="token" style="color:#569CD6">const</span><span> customContentPluginTwitter</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#4ec9b0">CellPlugin</span><span class="token" style="color:#d4d4d4">&lt;</span><span class="token" style="color:#4ec9b0">Data</span><span class="token" style="color:#d4d4d4">&gt;</span><span> </span><span class="token" style="color:#d4d4d4">=</span><span> </span><span class="token" style="color:#d4d4d4">{</span><span>
+</span></span><span><span>  </span><span class="token function-variable" style="color:#dcdcaa">Renderer</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#d4d4d4">(</span><span class="token" style="color:#d4d4d4">{</span><span class="token" style="color:#9cdcfe"> data </span><span class="token" style="color:#d4d4d4">}</span><span class="token" style="color:#d4d4d4">)</span><span> </span><span class="token" style="color:#569CD6">=&gt;</span><span> </span><span class="token" style="color:#d4d4d4">(</span><span>
+</span></span><span><span>    </span><span class="token" style="color:#808080">&lt;</span><span class="token" style="color:#569cd6">div</span><span class="token" style="color:#808080">&gt;</span><span class="token plain-text">
+</span></span><span><span class="token plain-text">      </span><span class="token" style="color:#808080">&lt;</span><span class="token" style="color:#569cd6">h4</span><span class="token" style="color:#808080">&gt;</span><span class="token" style="color:#d4d4d4">{</span><span>data</span><span class="token" style="color:#d4d4d4">.</span><span class="token property-access">title</span><span class="token" style="color:#d4d4d4">}</span><span class="token" style="color:#808080">&lt;/</span><span class="token" style="color:#569cd6">h4</span><span class="token" style="color:#808080">&gt;</span><span class="token plain-text">
+</span></span><span><span class="token plain-text">      </span><span class="token" style="color:#808080">&lt;</span><span class="token" style="color:#4ec9b0">Timeline</span><span class="token" style="color:#569cd6">
+</span></span><span><span class="token" style="color:#569cd6">        </span><span class="token" style="color:#9cdcfe">dataSource</span><span class="token script language-javascript script-punctuation" style="color:#569cd6">=</span><span class="token script language-javascript" style="color:#808080">{</span><span class="token script language-javascript" style="color:#808080">{</span><span class="token script language-javascript" style="color:#569cd6">
+</span></span><span><span class="token script language-javascript" style="color:#569cd6">          sourceType</span><span class="token script language-javascript" style="color:#d4d4d4">:</span><span class="token script language-javascript" style="color:#569cd6"> </span><span class="token script language-javascript" style="color:#ce9178">&#x27;profile&#x27;</span><span class="token script language-javascript" style="color:#808080">,</span><span class="token script language-javascript" style="color:#569cd6">
+</span></span><span><span class="token script language-javascript" style="color:#569cd6">          </span><span class="token script language-javascript" style="color:#6a9955">// data has already the right type!</span><span class="token script language-javascript" style="color:#569cd6">
+</span></span><span><span class="token script language-javascript" style="color:#569cd6">          screenName</span><span class="token script language-javascript" style="color:#d4d4d4">:</span><span class="token script language-javascript" style="color:#569cd6"> data</span><span class="token script language-javascript" style="color:#808080">.</span><span class="token script language-javascript property-access" style="color:#569cd6">screenName</span><span class="token script language-javascript" style="color:#808080">,</span><span class="token script language-javascript" style="color:#569cd6">
+</span></span><span><span class="token script language-javascript" style="color:#569cd6">        </span><span class="token script language-javascript" style="color:#808080">}</span><span class="token script language-javascript" style="color:#808080">}</span><span class="token" style="color:#569cd6">
+</span></span><span><span class="token" style="color:#569cd6">        </span><span class="token" style="color:#9cdcfe">options</span><span class="token script language-javascript script-punctuation" style="color:#569cd6">=</span><span class="token script language-javascript" style="color:#808080">{</span><span class="token script language-javascript" style="color:#808080">{</span><span class="token script language-javascript" style="color:#569cd6">
+</span></span><span><span class="token script language-javascript" style="color:#569cd6">          height</span><span class="token script language-javascript" style="color:#d4d4d4">:</span><span class="token script language-javascript" style="color:#569cd6"> data</span><span class="token script language-javascript" style="color:#808080">.</span><span class="token script language-javascript property-access" style="color:#569cd6">height</span><span class="token script language-javascript" style="color:#569cd6"> </span><span class="token script language-javascript" style="color:#d4d4d4">||</span><span class="token script language-javascript" style="color:#569cd6"> </span><span class="token script language-javascript" style="color:#b5cea8">600</span><span class="token script language-javascript" style="color:#808080">,</span><span class="token script language-javascript" style="color:#569cd6">
+</span></span><span><span class="token script language-javascript" style="color:#569cd6">        </span><span class="token script language-javascript" style="color:#808080">}</span><span class="token script language-javascript" style="color:#808080">}</span><span class="token" style="color:#569cd6">
+</span></span><span><span class="token" style="color:#569cd6">      </span><span class="token" style="color:#808080">/&gt;</span><span class="token plain-text">
+</span></span><span><span class="token plain-text">    </span><span class="token" style="color:#808080">&lt;/</span><span class="token" style="color:#569cd6">div</span><span class="token" style="color:#808080">&gt;</span><span>
+</span></span><span><span>  </span><span class="token" style="color:#d4d4d4">)</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>  id</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">&#x27;twitter-timeline&#x27;</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>  title</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">&#x27;Twitter timeline&#x27;</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>  description</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">&#x27;A twitter timeline&#x27;</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>  version</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#b5cea8">1</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>  controls</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#d4d4d4">{</span><span>
+</span></span><span><span>    type</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">&#x27;autoform&#x27;</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>    schema</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#d4d4d4">{</span><span>
+</span></span><span><span>      </span><span class="token" style="color:#6a9955">// this JSONschema is type checked against the generic type argument</span><span>
+</span></span><span><span>      </span><span class="token" style="color:#6a9955">// the autocompletion of your IDE helps to create this schema</span><span>
+</span></span><span><span>      properties</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#d4d4d4">{</span><span>
+</span></span><span><span>        title</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#d4d4d4">{</span><span>
+</span></span><span><span>          type</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">&#x27;string&#x27;</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>          </span><span class="token" style="color:#c586c0">default</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">&#x27;A Sample Twitter plugin&#x27;</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>        </span><span class="token" style="color:#d4d4d4">}</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>        screenName</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#d4d4d4">{</span><span>
+</span></span><span><span>          type</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">&#x27;string&#x27;</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>          </span><span class="token" style="color:#c586c0">default</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">&#x27;typescript&#x27;</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>        </span><span class="token" style="color:#d4d4d4">}</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>        height</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#d4d4d4">{</span><span>
+</span></span><span><span>          type</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#ce9178">&#x27;number&#x27;</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>          </span><span class="token" style="color:#c586c0">default</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#b5cea8">600</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>        </span><span class="token" style="color:#d4d4d4">}</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>      </span><span class="token" style="color:#d4d4d4">}</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>      required</span><span class="token" style="color:#d4d4d4">:</span><span> </span><span class="token" style="color:#d4d4d4">[</span><span class="token" style="color:#ce9178">&#x27;screenName&#x27;</span><span class="token" style="color:#d4d4d4">]</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>    </span><span class="token" style="color:#d4d4d4">}</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span>  </span><span class="token" style="color:#d4d4d4">}</span><span class="token" style="color:#d4d4d4">,</span><span>
+</span></span><span><span></span><span class="token" style="color:#d4d4d4">}</span><span class="token" style="color:#d4d4d4">;</span><span>
+</span></span><span>
+</span><span><span></span><span class="token" style="color:#c586c0">export</span><span> </span><span class="token" style="color:#c586c0">default</span><span> customContentPluginTwitter</span><span class="token" style="color:#d4d4d4">;</span><span>
+</span></span><span>
+</span></code></pre></div></div></div></div><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-8 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf slate"><div style="display:flex;flex-direction:column;height:100%"><div style="position:relative;outline:none;white-space:pre-wrap;overflow-wrap:break-word"><h2>Server Side Rendering out of the box</h2><p><strong>ReactPage </strong>is built with performance in mind. It can be used for <strong>server side rendering (SSR)</strong>, which makes it not only a great tool for editing, but also for displaying. It&#x27;s battle tested in nextjs, this example itself is created using nextjs and static page generation.</p><p>We try <strong>minimize bundle size</strong> as much as possible. Any UI solely used for editing is not loaded when in readOnly mode. </p></div></div></div></div><div class="react-page-cell react-page-cell-sm-4 react-page-cell-xs-12" style="padding:0 0px"><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-12 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf slate"><div style="display:flex;flex-direction:column;height:100%"><div style="position:relative;outline:none;white-space:pre-wrap;overflow-wrap:break-word"><p style="text-align:center"><em></em></p><p><em>ReactPage works in any SSR setup like 
+Next.js or Gatsby</em></p></div></div></div></div></div><div class="react-page-row" style="margin:0 0px"><div class="react-page-cell react-page-cell-sm-4 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf"><div style="display:flex;flex-direction:column;height:100%"><div><img class="react-page-plugins-content-image" alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png"/></div></div></div></div><div class="react-page-cell react-page-cell-sm-3 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf"><div style="display:flex;flex-direction:column;height:100%"><div class="react-page-plugins-content-spacer"><div style="height:24px"></div></div></div></div></div><div class="react-page-cell react-page-cell-sm-5 react-page-cell-xs-12 react-page-cell-leaf"><div class="react-page-cell-inner react-page-cell-inner-leaf"><div style="display:flex;flex-direction:column;height:100%"><div><img class="react-page-plugins-content-image" alt="" src="https://www.gatsbyjs.cn/Gatsby-Logo.svg"/></div></div></div></div></div></div></div></div></div></main></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/examples/extractTextContents","query":{},"buildId":"uzpKnCuZkl8Cvsyw3ubi8","assetPrefix":"/beta","nextExport":true,"autoExport":true,"isFallback":false,"dynamicIds":["+165","+1r4","+Cf+","+lEt","/5e1","/QS1","/m4v","/ttf","0B6i","0Qmu","0mYX","0qVv","2EQx","2ml5","3dQX","4Up4","4a20","4e1R","4mhO","5Avs","5xfP","69l8","7/S+","8VmE","93ly","Akg/","B0PM","BW49","Bl9M","C6eJ","COrk","D9vu","Dn2J","E1Sn","EIj1","EN0E","ENzc","Ey2w","GE03","GcRk","GceY","I0R8","JIgs","KB05","KLPu","LJgF","LLEl","LdZC","LhMo","MBdc","MKeu","Mk7N","NEEk","NEWh","NMHk","Ncj0","NfLg","OF9M","P1sU","PE9J","PNiC","RVMM","SZLn","T0uz","U6Om","VY7S","WLS8","a7YA","aYZL","aksD","c07W","cnbf","d1lM","d50O","dbCC","dnPJ","dtdj","dveL","dxMw","eu0v","evNF","fRVI","fTJh","fUB4","gKNW","hZRl","iw6d","jffb","ji6j","jnnA","kXPx","kiX2","mTCu","mZcU","pF0b","q8G3","rKOF","rRnI","rrk0","s3X+","tDyL","tOpy","tkfv","u2vY","vNbu","w451","wBDf","wiKJ","yXXn","yoW1","z935","zfhL","zs9M","+1OH","+AbU","+Sw5","+ZzW","/AUe","/pGB","/wGt","0Q8B","0dkZ","0kVq","1EgE","1KKO","1Y7Z","1hwd","1pDR","2/wR","237Q","2U/G","2Z4k","2aoA","31zN","38Am","3Cm4","3Hrw","3syz","3vVN","3w2m","466w","473Y","4erz","4hjQ","4tNq","5+28","500m","5FK5","5PBY","5Q4d","5WRv","5eII","6JFo","6MSu","6aGY","6bUs","6orY","6xjp","6xrG","6zOu","7+9Z","7/g9","7H8c","7Mu6","7N+m","7SRt","7Zvq","7l2Q","7p0F","81Tc","8Pi1","8h7d","8k1a","8r9X","8xfV","9VwQ","9enC","9o5g","A/Ai","AKJn","AL7C","ANcx","B3iZ","BTrL","BWGz","C5Wd","C7WK","CDg0","CEYv","CG5M","CU5d","CYAp","Ck5b","CkyZ","D+Sk","D8yG","DKSL","DNUg","DWEv","Duns","EJff","EOpl","EUFA","FSko","FTdp","FoPV","H4IM","H8fM","H9/5","HJo0","HZq/","Ha0s","I+DO","IKQn","IUHq","IVid","IW9D","IZ5c","Io8A","JQlu","JQvc","K+bG","K/a0","K5Fc","K78J","KSwd","KYiW","KiWU","Ksty","LQeU","ME90","MGgL","MNFX","N1fF","NAua","NMAS","Nfqm","NjOJ","NzRn","O7xG","OM94","OMVj","Ogz2","Oh6O","On1z","OrmT","OvAC","P734","PYoO","Pgj5","Pmfo","Pw5X","Q/PF","QOru","QT3L","QUtf","Qatm","Qfee","RBvo","RDG9","RE2D","RHdb","RU7w","Refe","RiSW","Ru52","S0Ul","SGVD","SOMx","SZaA","Sc8a","Scj6","Sdt2","SfCQ","TCsN","TcBS","U5XH","UMy2","UUZ3","Uj53","V++U","V4pb","W2sF","W2vp","W79r","W7xF","W8eu","WFFz","WNso","WY1P","WunU","X2I8","XVdE","Xws6","Xz3p","Y+SX","Y5T7","YL/c","Z0Zu","ZM0M","ZUdJ","ZZtz","Zhxd","ZiDg","ZxwK","a4hb","b25k","bHmR","bb/9","beb4","bz5S","c8Bt","cFb7","clwd","cnT0","cq/r","crBp","d/3l","dD7o","dI64","dVux","dkWk","dyFz","e/Gr","e46M","eBWQ","eD9v","eJ8M","eaeH","ejtz","f1HF","ff1r","frZB","fxcg","gG84","gYhT","gki9","gl0A","gryC","h2bK","hGVz","hRDG","hkjA","iBay","iDLQ","iDV8","iMCI","iNmH","iNp/","inXL","iqvd","izgk","jxcG","kTeP","kcx5","kfBT","kgXf","kjdH","kluZ","kwZb","kx21","l+rF","l0mD","lBDn","lGg9","lUT4","lWEO","lgb5","lmWd","mJ+X","mWxh","mYK1","mb3y","n060","n6Uu","neEr","niTW","ntu4","oBNo","oL1G","omzz","pJ3c","pfbh","ph5U","pw4W","pyeF","q1Fs","q8Rk","qC37","r5Ox","r8P+","rg5i","s5XF","s7L8","sHI9","sOJo","sRWj","sSWr","sSnv","sSxc","sbIk","sdoB","seip","snJJ","srQ0","t2/9","t6Fl","tWzj","thXC","tifB","trAx","tvk8","u3/Q","u5Ll","u9Zn","uPbg","ua71","ubRF","uozP","usry","utBt","uzKv","v4Jl","vCHl","vNGi","vV5o","vXoy","vcdl","vnUI","vuNd","w60P","wAQ3","wKDx","wari","wc31","wjeN","wkq1","wpfW","wsYv","xe9T","xm2B","yOdm","z+Ts","zATK","zFnU","zJzF","zXnk","zpIF","zs9T","zsWz","zwc9"]}</script><script nomodule="" src="/beta/_next/static/chunks/polyfills-ebe97d5456ed49307646.js"></script><script async="" src="/beta/_next/static/chunks/fe8bb93dcba62e8ce8a062d724dbc8a69309bd57.ea4266abf95b221bb051.js"></script><script async="" src="/beta/_next/static/chunks/53.169a284afafca4053b81.js"></script><script src="/beta/_next/static/chunks/webpack-e858890deb40b5370077.js" async=""></script><script src="/beta/_next/static/chunks/framework.697a70d97d7bad588b20.js" async=""></script><script src="/beta/_next/static/chunks/commons.eb1f81b9aeeb781da3ff.js" async=""></script><script src="/beta/_next/static/chunks/1eda3100e0f74f366f5d84ea0f08f6791b1cd068.331edb6b5b5edabe02e7.js" async=""></script><script src="/beta/_next/static/chunks/5f2e4506bbcb8b58a90792fb2104083f25e8e33f.ff3365222aea16cf41be.js" async=""></script><script src="/beta/_next/static/chunks/main-0de145441080f7ebc864.js" async=""></script><script src="/beta/_next/static/chunks/pages/_app-8c7956a6177c4938d6f0.js" async=""></script><script src="/beta/_next/static/chunks/9a31bf60539185e3255264802ee5087a52ad5544.3675a0dc192f7bada986.js" async=""></script><script src="/beta/_next/static/chunks/c514e870182cf5b1a992a1afb5cc44ba56461629.a71d29afb2dde7939702.js" async=""></script><script src="/beta/_next/static/chunks/9edfa452e812c1f96fa9c30afd2b6ca35887fe68.ca1ae7417225befc0846.js" async=""></script><script src="/beta/_next/static/chunks/acf4785f75aceebb0276933a9e45e6996b03b125.912a30f9340522b3e57b.js" async=""></script><script src="/beta/_next/static/chunks/8bc783e8110500127fa47a063c8c4cf22aecf3f4.19b17d82eee93bfb899c.js" async=""></script><script src="/beta/_next/static/chunks/062231edcb9e05d4cc54994579aef1b7afc9841a.f98d1dcdf4f67349bde3.js" async=""></script><script src="/beta/_next/static/chunks/1fc445b96d5b67e26114c393c0f9c2da13866060.c7f45d5ef9f208e989f6.js" async=""></script><script src="/beta/_next/static/chunks/9b0bd0386e4c1125e2448a4cfc74a81f3a2d1ae8.14a1992ce341086999d4.js" async=""></script><script src="/beta/_next/static/chunks/989aae2bd6289f775c80d6c779b9e889e239ed2e.4605038641ea741bf958.js" async=""></script><script src="/beta/_next/static/chunks/aa55b148d134fa5821139b36bab1d324c41d3c0d.62b9e1db0d61ebad2ebe.js" async=""></script><script src="/beta/_next/static/chunks/pages/examples/extractTextContents-dca198ef6ec6442be546.js" async=""></script><script src="/beta/_next/static/uzpKnCuZkl8Cvsyw3ubi8/_buildManifest.js" async=""></script><script src="/beta/_next/static/uzpKnCuZkl8Cvsyw3ubi8/_ssgManifest.js" async=""></script></body></html>
