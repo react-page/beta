@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9995],{5167:function(e,t,a){var u=a(7914),l=a(71954);Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var d=l(a(27378)),f=(0,u(a(32676)).default)(d.createElement("path",{d:"M19 13H5v-2h14v2z"}),"Remove");t.default=f}}]);
