@@ -127,12 +127,13 @@ function plugin<TPlugins extends SlatePluginCollection = DefaultPlugins>(
         translations: settings.translations,
         defaultPluginType: settings.defaultPluginType,
       };
+
       /* we need a small fix to avoid flashing when SSR in edit mode:
       we code split the Provider AND the editor version, but we have to make sure to not render the editor without the provider:
       */
       const [providerLoaded, setProviderLoaded] = useSafeSetState(false);
-      if (!props.readOnly) {
-        SlateProvider.load().then((l) => setProviderLoaded(true));
+      if (!props.readOnly && !providerLoaded) {
+        SlateProvider.load().then(() => setProviderLoaded(true));
       }
 
       if (props.readOnly || !providerLoaded) {

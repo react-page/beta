@@ -5,7 +5,7 @@ import { useTheme } from '@mui/material';
 const IconButton = lazyLoad(() => import('@mui/material/IconButton'));
 const Tooltip = lazyLoad(() => import('@mui/material/Tooltip'));
 
-const ToolbarButton: React.SFC<{
+const ToolbarButton: React.FC<{
   icon: JSX.Element | string;
   isActive: boolean;
   disabled?: boolean;
@@ -17,7 +17,11 @@ const ToolbarButton: React.SFC<{
   return (
     <ConditionalWrapper
       condition={!disabled}
-      wrapper={(children) => <Tooltip title={toolTip}>{children}</Tooltip>}
+      wrapper={(children) => (
+        <Tooltip title={toolTip}>
+          <>{children}</>
+        </Tooltip>
+      )}
     >
       <IconButton
         onMouseDown={onClick}

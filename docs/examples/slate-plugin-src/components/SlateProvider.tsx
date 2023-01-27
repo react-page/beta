@@ -1,4 +1,5 @@
 import { deepEquals } from '@react-page/editor';
+import type { FC, PropsWithChildren } from 'react';
 import React, { useCallback, useEffect, useMemo } from 'react';
 import { createEditor, Transforms } from 'slate';
 import { ReactEditor, Slate, withReact } from 'slate-react';
@@ -7,7 +8,7 @@ import withPaste from '../slateEnhancer/withPaste';
 import type { SlateProps } from '../types/component';
 import DialogVisibleProvider from './DialogVisibleProvider';
 
-const SlateProvider: React.FC<SlateProps> = (props) => {
+const SlateProvider: FC<PropsWithChildren<SlateProps>> = (props) => {
   const { data, plugins, children, defaultPluginType } = props;
   const editor = useMemo(
     () =>
@@ -21,13 +22,13 @@ const SlateProvider: React.FC<SlateProps> = (props) => {
   useEffect(() => {
     // unfortunatly, slate broke the controlled input pattern. So we have to hack our way around it, see https://github.com/ianstormtaylor/slate/issues/4992
     editor.children = data?.slate;
-
+    try {
+      // focus
+      ReactEditor.focus(editor);
+    } catch (e) {
+      // ignore, can happen
+    }
     if (data.selection) {
-      try {
-        ReactEditor.focus(editor);
-      } catch (e) {
-        // ignore, can happen
-      }
       // update seleciton, if changed from outside (e.g. through undo)
       Transforms.select(editor, data.selection);
     } else {
@@ -37,11 +38,11 @@ const SlateProvider: React.FC<SlateProps> = (props) => {
   }, [data?.slate, data?.selection]);
 
   const onChange = useCallback(
-    (v) => {
+    (v: any) => {
       if (
         !deepEquals(editor.children, data?.slate) ||
         !deepEquals(editor.selection, data?.selection)
-      )
+      ) {
         props.onChange(
           {
             slate: editor.children,
@@ -53,8 +54,9 @@ const SlateProvider: React.FC<SlateProps> = (props) => {
             notUndoable: deepEquals(editor.children, data?.slate),
           }
         );
+      }
     },
-    [data?.slate]
+    [data?.slate, props.onChange]
   );
 
   const initialValue = data?.slate;
